@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+	color: steelblue;
+}
+
+.flex-container {
+	width: 500px;
+	height: 300px;
+	background: lightblue;
+	margin: auto;
+	display: flex;
+	flex-direction: row-reverse; /* row (default), row-reverse, column, column-reverse*/
+	
+}
+
+.flex-item {
+	background: tomato;
+	color: white;
+}
+
+.flex-item:nth-child(odd) {
+	background: teal;
+}
+
+footer {
+	padding-top: 3em;
+	text-align: center;
+}
