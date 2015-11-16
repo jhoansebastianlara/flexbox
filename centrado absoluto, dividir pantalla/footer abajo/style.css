@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+h1 {
+    color: darkblue;
+}
+
+main {
+    margin: 2em;
+}
+
+main p {
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+footer {
+    align-self: flex-end;
+    background: rgba(0, 0, 180, 0.8);
+    width: 100%;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}

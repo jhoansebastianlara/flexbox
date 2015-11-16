@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: silver;
+}
+
+h1 {
+    position: absolute;;
+}
+
+.flex-container {
+    width: 500px;
+    height: 300px;
+    background: gold;
+    margin: iem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(http://lorempixel.com/500/300);
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff,
+                0 0 0 11px yellowgreen,
+                0 20px 20px -12px #00ff00;
+}
+
+.flex-container:hover p {
+    top: 0;
+}
+
+.flex-container p {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+    position: relative;
+    top: 100%;
+    transition: all .3s;
+}
+
