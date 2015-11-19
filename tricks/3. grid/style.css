@@ -1,0 +1,44 @@
+h1 {
+	text-align: center;
+	color: steelblue;
+}
+
+body {
+    background: snow;
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    box-shadow: 0 0 0 1px silver;
+    margin-bottom: 1em;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-item {    
+    background: skyblue;
+    flex: auto;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.item-20 {
+    flex: 1 1 20%;
+}
+
+.item-80 {
+    flex: 1 1 80%;
+}
+
+.flex-item:nth-child(odd) {
+    background: floralwhite;
+}
+
+footer {
+	padding-top: 3em;
+	text-align: center;
+}
+

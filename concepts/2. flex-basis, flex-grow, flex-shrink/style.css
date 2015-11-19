@@ -8,16 +8,17 @@ h1 {
 .flex-container-a {
     width: 95%;
     height: 500px;
-    background: salmon;
+    background: #E9EAED;
     margin: auto;
     display: flex;
     flex-direction: row; /* row (default), row-reverse, column, column-reverse*/
     /*align-items: center;*/ /* stretch (default) */
     /*justify-content: space-around;*/
+    box-shadow: 0 0 0 1px floralwhite;
 }
 
 .flex-item-a {
-    background: orangered;
+    background: #44619D;
     color: white;
 
     display: flex;
@@ -30,7 +31,7 @@ h1 {
 }
 
 .flex-item-a:nth-child(odd) {
-    background: teal;
+    background: silver;
 }
 
 .flex-item-a:nth-child(1) {

@@ -6,10 +6,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: silver;
+    background: #F5F8FA;
 }
 
 h1 {
+    text-align: center;
+    color: steelblue;
     position: absolute;;
 }
 

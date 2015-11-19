@@ -8,8 +8,11 @@ body {
 }
 
 h1 {
-    color: darkblue;
+    color: steelblue;
+    text-align: center;
 }
+
+
 
 main {
     margin: 2em;

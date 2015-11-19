@@ -4,60 +4,74 @@ body {
     font-family: sans-serif;
     background: #f0f0f0;
 }
+
 h1 {
     text-align: center;
     color: steelblue;
 }
+
 .dice {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .first-face {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .second-face {
     display: flex;
     justify-content: space-between;
 }
+
 .second-face .pip:nth-of-type(2) {
     align-self: flex-end;
 }
+
 .third-face {
     display: flex;
     justify-content: space-between;
 }
+
 .third-face .pip:nth-of-type(2) {
     align-self: center;
 }
+
 .third-face .pip:nth-of-type(3) {
     align-self: flex-end;
 }
+
 .fourth-face,
 .sixth-face {
     display: flex;
     justify-content: space-between;
 }
+
 .fourth-face .column,
 .sixth-face .column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .fifth-face {
     display: flex;
     justify-content: space-between;
 }
+
 .fifth-face .column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .fifth-face .column:nth-of-type(2) {
     justify-content: center;
 }
+
 .pip {
     display: block;
     width: 24px;
@@ -67,6 +81,7 @@ h1 {
     background-color: darkorange;
     box-shadow: inset 0 3px #111, inset 0 -3px #555;
 }
+
 [class$="face"] {
     margin: 1em;
     padding: 4px;
@@ -77,6 +92,7 @@ h1 {
     box-shadow: inset 0 5px white, inset 0 -5px #bbb, inset 5px 0 #d7d7d7, inset -5px 0 #d7d7d7;
     border-radius: 10%;
 }
+
 footer {
     padding-top: 3em;
     text-align: center;

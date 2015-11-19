@@ -11,8 +11,8 @@ h1 {
 
 
 header {
-	height: 200px;
-	background: #444;
+	height: 100px;
+	background: #2FA9E3;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -28,12 +28,12 @@ ul {
 }
 
 ul li {
-	background: #eee;
-	color: #333;
-	border-radius: 5px;
+	background: #91C04F;
+	color: white;
+	border-radius: 1px;
 	margin-left: 10px;
-	font-size: 1.3em;
-	padding: 0.5em;
+	font-size: 1em;
+	padding: 1em;
 	line-height: 1;
 	margin-bottom: 0.5em;
 	margin-right: 0.5em;
@@ -41,6 +41,7 @@ ul li {
 
 .logo {
 	border-radius: 50%;
+	margin-left: 10px;
 }
 
 footer {
